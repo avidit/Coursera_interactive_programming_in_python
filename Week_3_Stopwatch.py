@@ -38,7 +38,7 @@ def stop():
     timer.stop()
 
 def reset():
-    global count, succes_stops, total_stops
+    global time, succes_stops, total_stops
     time = 0
     total_stops = 0
     succes_stops = 0
